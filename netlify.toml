@@ -3,5 +3,5 @@ ID = 'fd508904-9884-4415-aabd-62d0e54d06e6'
 
 [build]
 base = 'frontend/'
-publish = 'frontend/build'
+publish = 'build'
 command = 'npm run build'
