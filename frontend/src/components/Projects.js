@@ -7,20 +7,34 @@ const Projects = () => {
       <section className="section projects">
         <div className="section-title">Projects</div>
         <div className="section-content">
+        <CustomProject
+            title="FlashBacks"
+            link="https://github.com/ShavonHarris-Dev/Flashbacks"
+            desc="Fullstack social media CRUD app to share your memories. You create posts detailing special occasians and memories and other people like them. "
+            usedArray={[
+                "JavaScript",
+                "React",
+                "Redux",
+                "Express",
+                "MongoDB",
+                "Material UI",
+            ]}
+          />
           <CustomProject
             title="Storyboard"
             link="https://github.com/ShavonHarris-Dev/storybook-app"
-            desc="Fullstack app that I built with a team of engineers. This app includes the use of MongoDB, Handlebars, Google Authentication, Passport.js and other features. "
+            desc="Fullstack CRUD application where you can make private add public stories to share with your friends."
             usedArray={[
               "JavaScript",
-              "CSS3",
+              "Materialize",
               "MongoDB",
               "Node.js",
+              "Passport.js",
             ]}
           />
           <CustomProject
             title="BollyBot"
-            link="https://github.com/karantondare/instalike"
+            link="https://github.com/ShavonHarris-Dev/React-BollyBot"
             desc="Fullstack app that pulls random Bollywood movies from an API that I created with a list of 500 titles. "
             usedArray={[
                 "JavaScript",
@@ -29,6 +43,17 @@ const Projects = () => {
                 "Node.js",
             ]}
           />
+          <CustomProject
+            title="React Portfolio"
+            link="https://github.com/ShavonHarris-Dev/new-react-portfolio"
+            desc="React version of portfolio that includes projects and skills. "
+            usedArray={[
+                "JavaScript",
+                "React",
+                "CSS3",
+            ]}
+          />
+          
         </div>
       </section>
       <div className=" section-content projects-flex">
