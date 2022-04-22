@@ -1,5 +1,5 @@
 ## React Portfolio
-<a href="https://shavonharris-dev.netlify.app/" target="_blank">StoryBook</a>
+<a href="https://shavonharris-dev.netlify.app/" target="_blank">Portfolio</a>
 <a href="https://shavonharris-dev.netlify.app/" target="_blank"><img src="https://media.giphy.com/media/p2Aziptb8rLy29mXXe/giphy.gif" /></a>
 
 This site was made using react.
