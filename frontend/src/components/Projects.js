@@ -7,23 +7,10 @@ const Projects = () => {
       <section className="section projects">
         <div className="section-title">Projects</div>
         <div className="section-content">
-        <CustomProject
-            title="FlashBacks"
-            link="https://github.com/ShavonHarris-Dev/Flashbacks"
-            desc="Fullstack social media CRUD app to share your memories. You create posts detailing special occasians and memories and other people like them. "
-            usedArray={[
-                "JavaScript",
-                "React",
-                "Redux",
-                "Express",
-                "MongoDB",
-                "Material UI",
-            ]}
-          />
           <CustomProject
             title="Storyboard"
-            link="https://github.com/ShavonHarris-Dev/storybook-app"
-            desc="Fullstack CRUD application where you can make private add public stories to share with your friends."
+            link="https://github.com/ShavonHarris-Dev/CRUD-APP-StoryBoard"
+            desc="StoryBoard is a CRUD app built for writing a list of stories or blog-posts. You can create your own story in 'public' or 'private'."
             usedArray={[
               "JavaScript",
               "Materialize",
@@ -35,7 +22,7 @@ const Projects = () => {
           <CustomProject
             title="BollyBot"
             link="https://github.com/ShavonHarris-Dev/React-BollyBot"
-            desc="Fullstack app that pulls random Bollywood movies from an API that I created with a list of 500 titles. "
+            desc="BollyBot is an app that fixed a personal problem. Tired of searching for a new Bollywood movie to watch every night, I built a randomized movie picker.  The app lists the movie title, the year of release, and rating."
             usedArray={[
                 "JavaScript",
                 "CSS3",
@@ -44,13 +31,33 @@ const Projects = () => {
             ]}
           />
           <CustomProject
-            title="React Portfolio"
+            title="React Portfolio (You are here!)"
             link="https://github.com/ShavonHarris-Dev/new-react-portfolio"
-            desc="React version of portfolio that includes projects and skills. "
+            desc="React has quickly become a favorite tool for the frontend. This is my first large scale react app. It includes the use of custom hooks as well as a bit about my background, some projects and ways of getting in touch with me.  "
             usedArray={[
                 "JavaScript",
                 "React",
                 "CSS3",
+            ]}
+          />
+           <CustomProject
+            title="Personal Dashboard"
+            link="https://github.com/ShavonHarris-Dev/Personal-Dashboard"
+            desc="Built a dashboard modeled after the Momentum dashboard. I used a number of REST APIs (UnSplash, CoinGecko, and the OpenWeatherMap) to create a project which can be installed as a Chrome extension. "
+            usedArray={[
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ]}
+          />
+           <CustomProject
+            title="Pacman"
+            link="https://github.com/ShavonHarris-Dev/PacMan"
+            desc="Exciting game that I refactored from Ania Kubow. This was a great way to practice using advanced functions. "
+            usedArray={[
+                "JavaScript",
+                "CSS",
+                "HTML"
             ]}
           />
           

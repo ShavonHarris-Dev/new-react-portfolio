@@ -6,7 +6,7 @@ const Background = () => {
       <div className="section-title">BACKGROUND</div>
       <div className="section-content">
         <p>
-          I recently graduated from{" "}
+          I recently finished the {" "}
           <a
             href="https://leonnoel.com/"
             target="_blank"
@@ -15,7 +15,7 @@ const Background = () => {
           >
             100Devs Software Engineer Bootcamp
           </a>{" "}
-          where I designed and developed full-stack applications across multiple platforms collaborating with a team of engineers to build modern web applications using today's best practices.
+          where I designed and developed full-stack applications across multiple platforms collaborating with 100s of distributed engineers to build modern web applications using today's best practices.
         </p>
         <p>
         As a software engineer, I enjoy creating elegant solutions to everyday problems using my technical knowledge to present consistently thoughtful products. My goal is to constantly build scalable and efficient applications under the hood while providing engaging, pixel-perfect user experiences.
