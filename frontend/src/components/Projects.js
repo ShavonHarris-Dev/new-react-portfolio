@@ -41,13 +41,13 @@ const Projects = () => {
             ]}
           />
            <CustomProject
-            title="Personal Dashboard"
-            link="https://github.com/ShavonHarris-Dev/Personal-Dashboard"
-            desc="Built a dashboard modeled after the Momentum dashboard. I used a number of REST APIs (UnSplash, CoinGecko, and the OpenWeatherMap) to create a project which can be installed as a Chrome extension. "
+            title="React Recipe Book"
+            link="https://github.com/ShavonHarris-Dev/React-Recipe-Book"
+            desc="Built a recipe app that allows the user to keep track of recipes over time. "
             usedArray={[
                 "JavaScript",
-                "CSS",
-                "HTML"
+                "React",
+                "CSS"
             ]}
           />
            <CustomProject
