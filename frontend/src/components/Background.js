@@ -25,7 +25,7 @@ const Background = () => {
         </p>
         <a
           className="arrow-link"
-          href="https://resume.creddle.io/resume/djgd1legdhu"
+          href="https://docs.google.com/document/d/1V9rT9th4r_ypaq_nQIqLbGshduialhLV/edit?usp=sharing&ouid=115952415964137951868&rtpof=true&sd=true"
           target="_blank"
           rel="noopener noreferrer"
         >
