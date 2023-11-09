@@ -8,7 +8,7 @@ const Background = () => {
         <p>
           I am currently with {" "}
           <a
-            href="https://leonnoel.com/"
+            href="https://www.trellix.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="underline-link"
