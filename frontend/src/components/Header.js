@@ -13,10 +13,10 @@ const Header = () => {
         <span>Get in touch 👉🏿</span>{" "}
         <span>
           <a
-            href="mailto:shavonharris9114@gmail.com"
+            href="mailto:shavonharrisdev@gmail.com"
             className="highlight-link"
           >
-            shavonharris9114@gmail.com
+            shavonharrisdev@gmail.com
           </a>
         </span>
       </h3>
