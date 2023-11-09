@@ -13,9 +13,9 @@ const Background = () => {
             rel="noopener noreferrer"
             className="underline-link"
           >
-            100Devs Software Engineers
+            Trellix
           </a>{" "}
-          where I design and develop full-stack applications across multiple platforms collaborating with 100s of distributed engineers to build modern web applications using today's best practices.
+          where I am a developer specializing in front-end technologies and design systems, I craft reusable components and user interfaces to enhance user experience and product quality.
         </p>
         <p>
         As a developer, I enjoy creating elegant solutions to technical problems using my knowledge to present consistently thoughtful products. My goal is to constantly build scalable and efficient applications under the hood while providing engaging, pixel-perfect user experiences.
