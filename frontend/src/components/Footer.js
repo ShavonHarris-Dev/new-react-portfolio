@@ -27,7 +27,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="text">devBlog</span>
+          <span className="text">Github</span>
         </a>
             <a
            href="https://dev.to/shavonharrisdev"
@@ -35,7 +35,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="text">deBlog</span>
+          <span className="text">Tech Blog</span>
         </a>
         <a
          href="https://www.linkedin.com/in/shavonharris-dev/"
