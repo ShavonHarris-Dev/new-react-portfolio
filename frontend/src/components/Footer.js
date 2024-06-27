@@ -27,7 +27,15 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="text">github</span>
+          <span className="text">devBlog</span>
+        </a>
+            <a
+           href="https://dev.to/shavonharrisdev"
+          title="dev.to"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="text">deBlog</span>
         </a>
         <a
          href="https://www.linkedin.com/in/shavonharris-dev/"
