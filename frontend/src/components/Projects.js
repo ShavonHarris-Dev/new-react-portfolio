@@ -7,22 +7,37 @@ const Projects = () => {
       <section className="section projects">
         <div className="section-title">Projects</div>
         <div className="section-content">
-          <CustomProject
-            title="Storyboard"
-            link="https://github.com/ShavonHarris-Dev/CRUD-APP-StoryBoard"
-            desc="StoryBoard is a CRUD app built for writing a list of stories or blog-posts. You can create your own story in 'public' or 'private'."
+     <CustomProject
+            title="AI Powered Digital-Business-Card"
+            link=" https://github.com/ShavonHarris-Dev/Digital_Business_Card.git"
+            desc="An interactive digital business card powered by AI, allowing visitors to ask questions and learn about my work as a developer. It provides an engaging, conversational way to showcase my skills and experience."
             usedArray={[
-              "JavaScript",
-              "Materialize",
-              "MongoDB",
-              "Node.js",
-              "Passport.js",
+                "React(Vite)",
+                "Typescript",
+                "React DOM",
+                "Node.js",
+                "AWS SDK",
+                "OPENAI API",
+                "Serverless-HTTP",
+                "AWS Polly & S3"
+            ]}
+          />
+          <CustomProject
+            title="Breathe"
+            link="https://github.com/ShavonHarris-Dev/Breathe.git"
+            desc="Breathe is a simple yet powerful app designed to help you manage anxiety with guided breathing exercises, AI-powered affirmations, and real-time insights. Take a deep breath, find your calm, and build a daily habit of mindfulness."
+            usedArray={[
+              "React",
+              "Flask",
+              "JWT",
+              "SQLAlchemy",
+              "PWA",
             ]}
           />
           <CustomProject
             title="BollyBot"
             link="https://github.com/ShavonHarris-Dev/React-BollyBot"
-            desc="BollyBot is an app that fixed a personal problem. Tired of searching for a new Bollywood movie to watch every night, I built a randomized movie picker.  The app lists the movie title, the year of release, and rating."
+            desc="So simple but one of my favorite first apps. BollyBot is an app that fixed a personal problem. Tired of searching for a new Bollywood movie to watch every night, I built a randomized movie picker.  The app lists the movie title, the year of release, and rating."
             usedArray={[
                 "JavaScript",
                 "CSS3",
@@ -48,16 +63,6 @@ const Projects = () => {
                 "JavaScript",
                 "React",
                 "CSS"
-            ]}
-          />
-           <CustomProject
-            title="Pacman"
-            link="https://github.com/ShavonHarris-Dev/PacMan"
-            desc="Exciting game that I refactored from Ania Kubow. This was a great way to practice using advanced functions. "
-            usedArray={[
-                "JavaScript",
-                "CSS",
-                "HTML"
             ]}
           />
           
