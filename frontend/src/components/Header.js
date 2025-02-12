@@ -7,7 +7,7 @@ const Header = () => {
         Hi! <span className="emoji">✨</span>
       </h1>
       <h2 className="intro-tagline">
-      I'm <span class="name">Shavon Harris</span>, a software engineer from Chicago. With a background in education, I bring a unique perspective to building technology that helps people thrive. After transitioning from teaching to tech, I've focused on creating accessible applications that make a real difference – from enterprise security platforms to mental wellness tools. I'm passionate about building apps that connect and support people, drawing from my experience in both education and engineering.
+      I'm <span class="name">Shavon Harris</span>, a software engineer from Chicago. Drawing from my background in education, I build accessible, human-centered applications that make a difference. I'm passionate about creating technology that helps people thrive.
       </h2>
       <h3 className="intro-contact">
         <span>Get in touch 👉🏿</span>{" "}
