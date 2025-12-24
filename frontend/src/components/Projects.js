@@ -75,7 +75,7 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h4>Check out my other projects on github.</h4>
+          <span>Check out my other projects on github.</span>
         </a>
       </div>
     </>

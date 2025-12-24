@@ -1,22 +1,24 @@
-import React from "react";
 import "./index.css";
-import Background from "./components/Background";
-import Header from "./components/Header";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
 
-const App = () => {
+import Navigation from './components/Navigation'
+import HeroSection from "./components/HeroSection";
+import WorkSection from './components/WorkSection'
+import BackgroundSection from "./components/BackgroundSection";
+ import Footer from "./components/Footer";
+
+
+
+export default function App() {
   return (
-    <div>
-      <Header />
-      <Background />
-      <Skills />
-      <Projects />
+    <div className="app">
+      <Navigation />
+      <main className="container">
+        <HeroSection />
+        <WorkSection />
+        <BackgroundSection />
+      </main>
       <Footer />
-      
     </div>
   );
-};
+}
 
-export default App;
