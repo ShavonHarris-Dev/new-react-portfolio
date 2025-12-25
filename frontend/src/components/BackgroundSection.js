@@ -30,7 +30,7 @@ export default function BackgroundSection() {
           Outside work: reading, traveling, thinking about how films and stories shape how we build systems.
         </p>
 
-        <a href="#" className="resume-link">
+        <a href="/resume.pdf" className="resume-link" target="_blank" rel="noopener noreferrer">
           View Resume →
         </a>
       </div>
