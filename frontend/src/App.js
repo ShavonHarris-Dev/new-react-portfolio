@@ -11,8 +11,9 @@ import BackgroundSection from "./components/BackgroundSection";
 export default function App() {
   return (
     <div className="app">
+      <a href="#main" className="skip-link">Skip to main content</a>
       <Navigation />
-      <main className="container">
+      <main id="main" className="container">
         <HeroSection />
         <WorkSection />
         <BackgroundSection />

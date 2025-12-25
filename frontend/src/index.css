@@ -7,8 +7,8 @@
         :root {
             --color-bg: #faf8f5;
             --color-text: #1a1512;
-            --color-accent: #b8441f; /* Darker red-orange for better contrast */
-            --color-accent-light: #d45d3f; /* Previous accent color as light variant */
+            --color-accent: #7d2f14; /* Even darker for AAA compliance */
+            --color-accent-light: #b8441f; /* Previous darker color as light variant */
             --color-border: #e0d5c7;
             --color-surface: #ffffff;
             --font-serif: 'Instrument Serif', Georgia, serif;
@@ -27,6 +27,46 @@
             color: var(--color-text);
             background: var(--color-bg);
             -webkit-font-smoothing: antialiased;
+        }
+
+        /* Skip Links */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--color-accent);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 0 0 4px 4px;
+            z-index: 1000;
+            font-weight: 600;
+            transition: top 0.3s;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Focus Indicators */
+        *:focus {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
+        }
+
+        /* Custom focus styles for links and buttons */
+        a:focus,
+        button:focus {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+
+        /* Remove default focus for elements with custom focus */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
         }
 
         /* Typography */
@@ -461,5 +501,17 @@
 
             nav a {
                 margin-left: 0;
+            }
+        }
+
+        /* Respect user motion preferences */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
             }
         }

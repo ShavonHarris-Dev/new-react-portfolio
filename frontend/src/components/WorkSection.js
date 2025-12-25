@@ -49,7 +49,7 @@ function WorkSection() {
         ))}
 
         <div style={{ marginTop: '2rem' }}>
-          <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', marginBottom: '1.5rem', opacity: 0.8 }}>
+          <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', marginBottom: '1.5rem', opacity: 0.9 }}>
             Other Projects
           </h3>
           
@@ -59,8 +59,8 @@ function WorkSection() {
         </div>
       </div>
 
-      <p style={{ marginTop: '3rem', textAlign: 'center', opacity: 0.6, fontSize: '14px' }}>
-        More projects on <a href="https://github.com/ShavonHarris-Dev" style={{ color: 'var(--color-accent)', textDecoration: 'none' }}>GitHub</a>
+      <p style={{ marginTop: '3rem', textAlign: 'center', opacity: 0.9, fontSize: '14px' }}>
+        More projects on <a href="https://github.com/ShavonHarris-Dev" style={{ color: '#5c1f0d', textDecoration: 'underline', textDecorationColor: 'transparent', textUnderlineOffset: '3px' }}>GitHub</a>
       </p>
     </section>
   );

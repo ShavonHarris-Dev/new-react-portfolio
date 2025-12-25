@@ -23,8 +23,8 @@ function HeroSection() {
       </div>
 
       <div className="hero-cta">
-        <a href="#work" className="btn btn-primary">View Work</a>
-        <a href="mailto:shavonharrisdev@gmail.com" className="btn">Get in Touch</a>
+        <a href="#work" className="btn btn-primary" aria-label="View my work and projects">View Work</a>
+        <a href="mailto:shavonharrisdev@gmail.com" className="btn" aria-label="Send me an email">Get in Touch</a>
       </div>
     </section>
   );
